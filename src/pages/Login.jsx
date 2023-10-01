@@ -1,8 +1,13 @@
-import React from 'react'
+import {Form, Link } from 'react-router-dom'
+
+import { FormInput, SubmitBtn} from '../components'
 
 const Login = () => {
   return (
-    <div>Login</div>
+    <section className='h-screen grid place-items-center'>
+    <FormInput />
+    <SubmitBtn />
+    </section>
   )
 }
 
