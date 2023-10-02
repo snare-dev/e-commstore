@@ -6,8 +6,8 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
 
-  theme: {
-    extend: {},
+  daisyui: {
+    themes: ["winter", "night"],
   },
 
   plugins: [require('@tailwindcss/typography'), require("daisyui")],
